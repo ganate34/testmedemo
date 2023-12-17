@@ -7,7 +7,7 @@ tools{
   stages {
     stage('checkout'){
       steps{
-        git ''
+        git 'https://github.com/ganate34/testmedemo.git
       }
     }
     stage('Build'){
